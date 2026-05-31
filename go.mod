@@ -1,4 +1,4 @@
-module github.com/yourname/my-mcp-server
+module github.com/ianmiell/ianmiell-mcp-server
 
 go 1.25.5
 

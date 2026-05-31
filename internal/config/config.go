@@ -3,7 +3,7 @@ package config
 import "os"
 
 const (
-	defaultAddress = ":8080"
+	defaultAddress = ":9482"
 	defaultToken   = "secret123"
 	defaultName    = "Demo Server"
 	defaultVersion = "1.0.0"
@@ -11,10 +11,10 @@ const (
 
 // Config contains runtime configuration for the server.
 type Config struct {
-	Address     string
-	AuthToken   string
-	ServerName  string
-	ServerVer   string
+	Address    string
+	AuthToken  string
+	ServerName string
+	ServerVer  string
 }
 
 func Load() Config {

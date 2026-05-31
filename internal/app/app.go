@@ -6,9 +6,9 @@ import (
 
 	"github.com/mark3labs/mcp-go/server"
 
-	"github.com/yourname/my-mcp-server/internal/config"
-	"github.com/yourname/my-mcp-server/internal/httpauth"
-	"github.com/yourname/my-mcp-server/internal/tools"
+	"github.com/ianmiell/ianmiell-mcp-server/internal/config"
+	"github.com/ianmiell/ianmiell-mcp-server/internal/httpauth"
+	"github.com/ianmiell/ianmiell-mcp-server/internal/tools"
 )
 
 func Run(cfg config.Config) error {

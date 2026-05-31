@@ -1,0 +1,10 @@
+# Build outputs
+my-mcp-server
+bin/
+
+# Go caches
+.gocache/
+
+# Go test/profile outputs
+*.test
+*.out
